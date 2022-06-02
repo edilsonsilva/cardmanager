@@ -42,8 +42,6 @@
   width: 65vw;
   height: 60vh;
   border: 1px solid silver;
-  background-image: url("../img/maomaster.jpg");
-  background-size: 100% cover;
 }
 .waitlist,
 .plans,
@@ -55,6 +53,7 @@
   box-shadow: 0px 0px 10px 2px #eee;
   margin-top: -50px;
   background-color: #fff;
+  padding: 50px;
 }
 .cards img {
   width: 100px;
@@ -64,4 +63,16 @@
 }
 .cards img:hover {
   margin-left: 50px;
+}
+.balance p {
+  margin: 10px;
+  font-weight: bold;
+}
+.valuebalance {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.valuebalance p {
+  margin: 10px;
 }

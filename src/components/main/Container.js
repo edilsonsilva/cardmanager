@@ -36,7 +36,7 @@ export default function Container() {
   return (
     <div className="container">
       <Cards data={datacards} action={changeData} />
-      <Panel />
+      <Panel data={balance} />
       <Waitlist />
       <Plans />
       <Balance data={balance} />
